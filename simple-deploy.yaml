@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: test-container
-        image: "15.165.59.7:30004/simple/test:fa144ae"  # Docker 이미지
+        image: "15.165.59.7:30004/simple/test:1513a5f"  # Docker 이미지
         ports:
         - containerPort: 8080
 ---
