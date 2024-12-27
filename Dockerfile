@@ -1,2 +1,3 @@
-FROM ubuntu:23.04
-CMD echo hello world
+FROM nginx
+
+COPY . /usr/share/nginx/html
