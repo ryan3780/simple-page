@@ -1,23 +1,20 @@
-
-            apiVersion: v1
-            kind: ConfigMap
-            metadata:
-              name: index-html-configmap
-              namespace: simple
-            data:
-              index.html: |
-                
-            <!DOCTYPE html>
-            <html lang="ko">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>ConfigMap 페이지</title>
-            </head>
-            <body>
-                <h1>Jenkins -> github -> argo-cd -> cluster</h1>
-                <h2>2024-12-28 22:50:07</h2> <!-- 현재 날짜와 시간 삽입 -->
-            </body>
-            </html>
-              # YAML 들여쓰기를 위한 처리
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+  namespace: simple
+data:
+  index.html: | 
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ConfigMap 페이지</title>
+    </head>
+    <body>
+        <h1>Jenkins -> github -> argo-cd -> cluster</h1>
+        <h2>2024-12-28 22:50:07</h2> <!-- 현재 날짜와 시간 삽입 -->
+    </body>
+    </html>
             
