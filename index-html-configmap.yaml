@@ -6,11 +6,14 @@ metadata:
 data:
   index.html: |
     <!DOCTYPE html>
-    <html>
+    <html lang="ko">
     <head>
-        <title>simple</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ConfigMap 페이지</title>
     </head>
     <body>
-        <h1>configMap에 정의된 페이지!</h1>
+        <h1>config-map에 정의된 html 페이지!</h1>
     </body>
     </html>
+
