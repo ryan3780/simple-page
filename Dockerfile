@@ -1,7 +1,7 @@
 FROM nginx
 
-COPY . /usr/share/nginx/html
+COPY ./nginx.conf /etc/nginx/conf.d/nginx.conf
 
-EXPOSE 8080
+COPY ./index.html /usr/share/nginx/html/index.html
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
