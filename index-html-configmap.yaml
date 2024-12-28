@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+  namespace: simple
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My Custom Page</title>
+    </head>
+    <body>
+        <h1>Welcome to my custom NGINX page!</h1>
+    </body>
+    </html>
