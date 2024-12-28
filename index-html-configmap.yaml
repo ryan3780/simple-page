@@ -8,9 +8,9 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-        <title>My Custom Page</title>
+        <title>simple</title>
     </head>
     <body>
-        <h1>Welcome to my custom NGINX page!</h1>
+        <h1>configMap에 정의된 페이지!</h1>
     </body>
     </html>
